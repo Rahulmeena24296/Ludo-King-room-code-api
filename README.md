@@ -14,7 +14,7 @@ example -
 $resp = file_get_contents('http://165.22.211.82:3001/api/roomcode');
 
 $obj = json_decode($resp);
-$token = $obj->room_code;
+$token = $obj->room_code; 00856661
 echo $token 
 ?>
 nodejs
